@@ -1,0 +1,87 @@
+html,
+body {
+
+	height: 100%;
+}
+
+body {
+	background-color: azure;
+	background-image: url(../image/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	font-family: Haelvetica, Arial, sans-serif;
+}
+
+.main{
+	background-color: rgba(255,255,255,0.75);
+	border-radius: 50px;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 30px;
+	box-shadow: 0px 0px 10px 20px black;
+}
+
+h1{
+	text-align: center;
+	margin: 0;
+	font-family: 'Overpass Mono', monospace;
+	text-shadow: 0 0 10px white;
+}
+h2{
+	text-align: center;
+	margin-top: 0;
+	font-weight: normal;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	font-family: 'Overpass Mono', monospace;
+
+}
+h3{
+	font-family: 'Overpass Mono', monospace;
+	margin-bottom: 0;
+
+}
+
+h3:hover{
+	cursor:pointer;
+	text-decoration: underline;
+	display: inline-block;
+}
+
+h3 + * {
+
+	display: none;
+}
+
+
+img{
+	display: block;
+	margin: 0 auto;
+	border: 10px solid black;
+	text-decoration: underline;
+	transform: rotateZ(360deg);
+	display: block;
+	transition: transform 150ms;
+	box-shadow: 0px 0px 10px 5px black;
+
+}
+
+a{
+	color: blue;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Overpass Mono', monospace;
+}
+a:hover{
+	text-decoration: underline;
+	transform: rotateZ(360deg);
+	display: inline-block;
+	transition: transform 150ms;
+}
+	p{
+		font-family: 'Overpass Mono', monospace;
+}
+	ol{
+		font-family: 'Overpass Mono', monospace;
+}
